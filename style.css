@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 300px;
+    background-color: rgb(87, 87, 87);
+    background-image: url(img/bg-cafe.jpg);
+}
+.container{
+    display: flex;
+    border: solid 1px;
+    width: 1000px;
+    height:700px;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+        background-color: rgb(17, 17, 17);
+}
+.titulo{
+    position: relative;
+    left: 300px;
+    text-align: center;
+    color: rgb(180, 231, 238);
+}
+.pa{ 
+    position: relative;
+    left: 300px;
+    color: rgb(178, 203, 224);
+font-size: 20px;
+}
+.cappuccino{
+    border: solid 1px ;
+    border-radius: 10px;
+    background-image: url(img/café.jpg);
+    position: relative;
+    
+    bottom: 600px;
+    left: 900px;
+    width: 300px;
+    height: 200px;
+}
+.um, .dois, .tres, .botao{
+    position:relative;
+    top: 200px;
+    color: white;
+    font-size: 20px;
+    
+}
+.botao{
+    color: blue;
+    top: 250px;
+    right: 90px;
+    padding: 10px  ;
+    background-color: rgb(112, 112, 209);
+}
+.cap{
+    background-image: url(img/cafe\ 2.jpg);
+    border: solid 1px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    bottom: 800px ;
+    left: 1300px;
+}
+.quatro, .cinco, .seis{
+    position:relative;
+    top: 200px;
+    color: white;
+    font-size: 20px;
+}
+.botao1{
+    position: relative;
+    color: blue;
+    top: 250px;
+    right: 9px;
+    padding: 10px  ;
+    background-color: rgb(112, 112, 209);   
+    font-size: 20px;
+}
+.escrita{
+    position: relative;
+    bottom: 1100px;
+    border: solid white;
+    color: rgb(143, 74, 10);
+    width: 400px;
+   font-size: 70px;
+   left: 300px;
+   background-color: rgb(46, 45, 45);
+}
+a{
+    text-decoration: none;
+    color: blue;
+    padding:10px ;
+}
